@@ -6,7 +6,8 @@ body {
 }
 
 #title {
-	background-color: rosybrown;
+	background: rgb(153,106,106);
+	background: linear-gradient(321deg, rgba(153,106,106,1) 0%, rgba(255,223,223,1) 100%);
 	padding-top: 5%;
 	padding-bottom: 5%;
 	padding-left: auto;
