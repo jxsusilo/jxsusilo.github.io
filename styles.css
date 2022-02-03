@@ -17,7 +17,7 @@ body {
 }
 
 #portrait {
-	width: 10%;
+	width: 20vh;
 	border-radius: 50%;
 }
 
@@ -27,14 +27,15 @@ body {
 
 .content {
 	text-align: left;
-	margin-left: 20%;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 h1 { /* Select by element tag */
 	color: floralwhite;
 	padding-top: 0;
 	margin: 0;
-	font-size: 500%;
+	font-size: 7vw;
 }
 
 h2 {
@@ -85,4 +86,8 @@ a:visited {
 
 a:hover {
 	color: rosybrown;
+}
+
+#contact-links {
+	font-size: 2vh;
 }
