@@ -78,6 +78,10 @@ li {
 	margin-top: 5%;
 }
 
+a {
+	transition-duration: 0.3s;
+}
+
 a:link {
 	color: steelblue;
 }
@@ -106,6 +110,7 @@ a:hover {
 
 .project-img {
 	width: 25vw;
+	height: auto;
 	border: 0.2em steelblue solid;
 	transition-duration: 0.3s;
 }
