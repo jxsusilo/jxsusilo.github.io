@@ -103,6 +103,7 @@ a:hover {
 }
 
 .project-img {
+	width: 40vw;
 	flex-basis: 8em;
     padding: 2em 2em 2em 2em;
 }
