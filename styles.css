@@ -92,3 +92,17 @@ a:hover {
 #contact-links {
 	font-size: 2vh;
 }
+
+
+#portfolio {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    gap: 1em 1em;
+}
+
+.project-img {
+	flex-basis: 8em;
+    padding: 2em 2em 2em 2em;
+}
