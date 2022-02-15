@@ -54,6 +54,7 @@ h3 {
 
 p {
 	color: dimgrey;
+	
 }
 
 ul {
@@ -93,17 +94,22 @@ a:hover {
 	font-size: 2vh;
 }
 
-
-#portfolio {
+.project-desc {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-    gap: 1em 1em;
+	flex-wrap: nowrap;
+	justify-content: left;
+	gap: 2em 2em;
+
+	text-align: justify;
 }
 
 .project-img {
-	width: 40vw;
-	flex-basis: 8em;
-    padding: 2em 2em 2em 2em;
+	width: 25vw;
+	border: 0.2em steelblue solid;
+	transition-duration: 0.3s;
+}
+
+.project-img:hover {
+	border: 0.2em rosybrown solid;
 }
